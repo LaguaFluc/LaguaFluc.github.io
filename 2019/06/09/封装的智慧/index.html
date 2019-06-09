@@ -2,6 +2,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
   
 
 
@@ -9,7 +18,7 @@
 <head><meta name="generator" content="Hexo 3.8.0">
   <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
 <meta name="theme-color" content="#222">
 
 
@@ -20,8 +29,6 @@
 
 
 
-<meta http-equiv="Cache-Control" content="no-transform">
-<meta http-equiv="Cache-Control" content="no-siteapp">
 
 
 
@@ -37,38 +44,21 @@
 
 
 
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css?v=4.7.0">
 
-  
-  
-  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
-
+<link rel="stylesheet" href="/css/main.css?v=7.1.2">
 
 
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=7.1.2">
 
 
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=7.1.2">
 
 
-<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
-
-<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=7.1.2">
 
 
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
-
-
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
-
-
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
-
-
-  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
-
-
-
-
-
-  <meta name="keywords" content="思考,">
+  <link rel="mask-icon" href="/images/logo.svg?v=7.1.2" color="#222">
 
 
 
@@ -76,38 +66,20 @@
 
 
 
-
-
-
-<meta name="description" content="写给自己看，也写给所有可能看见这篇博客的人看 在所有编程语言中有一种便携性功能性比较强的一个操作叫做封装，将我们想要实现的某个功能封装到一个函数模块中，以后直接调用即可。我们输入数据，他们帮助我们完成什么样的操作，得到我们想要的结果，却不用理解其中的一些原理，只知道会用就好了。 就在今天我又想到它跟我们生活之间的联系了，不太清楚前人是否有这样地想过，我想过。通过一个个例子，我想出了下面的东西。 开">
-<meta name="keywords" content="思考">
-<meta property="og:type" content="article">
-<meta property="og:title" content="封装的智慧">
-<meta property="og:url" content="http://yoursite.com/2019/06/09/封装的智慧/index.html">
-<meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="写给自己看，也写给所有可能看见这篇博客的人看 在所有编程语言中有一种便携性功能性比较强的一个操作叫做封装，将我们想要实现的某个功能封装到一个函数模块中，以后直接调用即可。我们输入数据，他们帮助我们完成什么样的操作，得到我们想要的结果，却不用理解其中的一些原理，只知道会用就好了。 就在今天我又想到它跟我们生活之间的联系了，不太清楚前人是否有这样地想过，我想过。通过一个个例子，我想出了下面的东西。 开">
-<meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-06-09T10:17:31.753Z">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="封装的智慧">
-<meta name="twitter:description" content="写给自己看，也写给所有可能看见这篇博客的人看 在所有编程语言中有一种便携性功能性比较强的一个操作叫做封装，将我们想要实现的某个功能封装到一个函数模块中，以后直接调用即可。我们输入数据，他们帮助我们完成什么样的操作，得到我们想要的结果，却不用理解其中的一些原理，只知道会用就好了。 就在今天我又想到它跟我们生活之间的联系了，不太清楚前人是否有这样地想过，我想过。通过一个个例子，我想出了下面的东西。 开">
-
-
-
-<script type="text/javascript" id="hexo.configurations">
+<script id="hexo.configurations">
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
     scheme: 'Muse',
-    version: '5.1.4',
-    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
-    fancybox: true,
+    version: '7.1.2',
+    sidebar: {"position":"left","display":"post","offset":12,"onmobile":false,"dimmer":false},
+    back2top: true,
+    back2top_sidebar: false,
+    fancybox: false,
+    fastclick: false,
+    lazyload: false,
     tabs: true,
     motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
-    duoshuo: {
-      userId: '0',
-      author: 'Author'
-    },
     algolia: {
       applicationID: '',
       apiKey: '',
@@ -119,14 +91,41 @@
 </script>
 
 
+  
 
+
+
+
+  <meta name="description" content="写给自己看，也写给所有可能看见这篇博客的人看   在所有编程语言中有一种便携性功能性比较强的一个操作叫做封装，将我们想要实现的某个功能封装到一个函数模块中，以后直接调用即可。我们输入数据，他们帮助我们完成什么样的操作，得到我们想要的结果，却不用理解其中的一些原理，只知道会用就好了。 就在今天我又想到它跟我们生活之间的联系了，不太清楚前人是否有这样地想过，我想过。通过一个个例子，我想出了下面的东西">
+<meta name="keywords" content="思考">
+<meta property="og:type" content="article">
+<meta property="og:title" content="封装的智慧">
+<meta property="og:url" content="http://yoursite.com/2019/06/09/封装的智慧/index.html">
+<meta property="og:site_name" content="laguarage">
+<meta property="og:description" content="写给自己看，也写给所有可能看见这篇博客的人看   在所有编程语言中有一种便携性功能性比较强的一个操作叫做封装，将我们想要实现的某个功能封装到一个函数模块中，以后直接调用即可。我们输入数据，他们帮助我们完成什么样的操作，得到我们想要的结果，却不用理解其中的一些原理，只知道会用就好了。 就在今天我又想到它跟我们生活之间的联系了，不太清楚前人是否有这样地想过，我想过。通过一个个例子，我想出了下面的东西">
+<meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2019-06-09T13:09:13.343Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="封装的智慧">
+<meta name="twitter:description" content="写给自己看，也写给所有可能看见这篇博客的人看   在所有编程语言中有一种便携性功能性比较强的一个操作叫做封装，将我们想要实现的某个功能封装到一个函数模块中，以后直接调用即可。我们输入数据，他们帮助我们完成什么样的操作，得到我们想要的结果，却不用理解其中的一些原理，只知道会用就好了。 就在今天我又想到它跟我们生活之间的联系了，不太清楚前人是否有这样地想过，我想过。通过一个个例子，我想出了下面的东西">
+
+
+
+
+
+  
+  
   <link rel="canonical" href="http://yoursite.com/2019/06/09/封装的智慧/">
 
 
 
+<script id="page.configurations">
+  CONFIG.page = {
+    sidebar: "",
+  };
+</script>
 
-
-  <title>封装的智慧 | Hexo</title>
+  <title>封装的智慧 | laguarage</title>
   
 
 
@@ -135,6 +134,35 @@
 
 
 
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .motion-element,
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-title { opacity: initial; }
+
+  .use-motion .logo,
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
 
 </head>
 
@@ -150,23 +178,26 @@
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
       <div class="header-inner"><div class="site-brand-wrapper">
-  <div class="site-meta ">
+  <div class="site-meta">
     
 
     <div class="custom-logo-site-title">
       <a href="/" class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">Hexo</span>
+        <span class="site-title">laguarage</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
+    
       
-        <p class="site-subtitle"></p>
+        <p class="site-subtitle">Hell the magic world, let's explore it together</p>
       
+    
+    
   </div>
 
   <div class="site-nav-toggle">
-    <button>
+    <button aria-label="Navigationsleiste an/ausschalten">
       <span class="btn-bar"></span>
       <span class="btn-bar"></span>
       <span class="btn-bar"></span>
@@ -174,35 +205,55 @@
   </div>
 </div>
 
-<nav class="site-nav">
-  
 
+
+<nav class="site-nav">
   
     <ul id="menu" class="menu">
       
         
-        <li class="menu-item menu-item-home">
-          <a href="/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
-            
-            Home
-          </a>
-        </li>
-      
         
-        <li class="menu-item menu-item-archives">
-          <a href="/archives/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
-            
-            Archives
-          </a>
-        </li>
+        
+          
+          <li class="menu-item menu-item-home">
+
+    
+    
+    
       
+    
+
+    
+
+    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>Startseite</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-archives">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>Archiv</a>
+
+  </li>
 
       
+      
     </ul>
+  
+
+  
+    
+
   
 
   
@@ -210,12 +261,20 @@
 
 
 
- </div>
+  
+
+
+
+</div>
     </header>
+
+    
+
 
     <main id="main" class="main">
       <div class="main-inner">
         <div class="content-wrap">
+          
           <div id="content" class="content">
             
 
@@ -228,6 +287,8 @@
   
   
 
+  
+
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
   
   
@@ -236,13 +297,13 @@
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/06/09/封装的智慧/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="John Doe">
+      <meta itemprop="name" content="laguarage">
       <meta itemprop="description" content>
       <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hexo">
+      <meta itemprop="name" content="laguarage">
     </span>
 
     
@@ -250,31 +311,46 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">封装的智慧</h1>
+          <h1 class="post-title" itemprop="name headline">封装的智慧
+
+              
+            
+          </h1>
         
 
         <div class="post-meta">
           <span class="post-time">
+
+            
+            
+            
+
             
               <span class="post-meta-item-icon">
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-06-09T18:11:26+08:00">
-                2019-06-09
-              </time>
+
+              
+                
+              
+
+              <time title="Erstellt: 2019-06-09 18:11:26 / Geändert am: 21:09:13" itemprop="dateCreated datePublished" datetime="2019-06-09T18:11:26+08:00">2019-06-09</time>
             
 
             
+              
 
+              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -300,7 +376,10 @@
       
 
       
-        <p>写给自己看，也写给所有可能看见这篇博客的人看</p>
+        <blockquote>
+<p>写给自己看，也写给所有可能看见这篇博客的人看</p>
+</blockquote>
+<hr>
 <p>在所有编程语言中有一种便携性功能性比较强的一个操作叫做封装，将我们想要实现的某个功能封装到一个函数模块中，以后直接调用即可。我们输入数据，他们帮助我们完成什么样的操作，得到我们想要的结果，却不用理解其中的一些原理，只知道会用就好了。</p>
 <p>就在今天我又想到它跟我们生活之间的联系了，不太清楚前人是否有这样地想过，我想过。通过一个个例子，我想出了下面的东西。</p>
 <p>开始我们在学习编程的时候，可能一不小心就写出了很多重复的代码，写了很多别人一些写过的东西。这样在阅读代码时看起来逻辑没有那么清晰，有点做重复无用功的感觉存在。重复做一件事情，我们自以为自己在慢慢地长进知识，其实只是在机械地重复而已，我们把一些很宝贵的时间运用到了这个上面，本来我们可以再进一步学习新的知识的，但是却用到了重复上面。写别人写过的东西，从某种程度上面来讲也是在浪费时间。</p>
@@ -317,18 +396,27 @@
 
       
     </div>
+
+    
+
     
     
     
 
     
 
+    
+      
+    
     
 
     
 
     <footer class="post-footer">
       
+        
+          
+        
         <div class="post-tags">
           
             <a href="/tags/思考/" rel="tag"># 思考</a>
@@ -368,17 +456,10 @@
   </article>
 
 
-
-    <div class="post-spread">
-      
-    </div>
   </div>
 
 
           </div>
-          
-
-
           
 
   
@@ -398,63 +479,70 @@
   </div>
 
   <aside id="sidebar" class="sidebar">
-    
     <div class="sidebar-inner">
 
       
 
       
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
-              <p class="site-author-name" itemprop="name">John Doe</p>
-              <p class="site-description motion-element" itemprop="description"></p>
+              <p class="site-author-name" itemprop="name">laguarage</p>
+              <div class="site-description motion-element" itemprop="description"></div>
           </div>
 
-          <nav class="site-state motion-element">
-
-            
-              <div class="site-state-item site-state-posts">
+          
+            <nav class="site-state motion-element">
               
-                <a href="/archives/">
-              
-                  <span class="site-state-item-count">2</span>
-                  <span class="site-state-item-name">posts</span>
-                </a>
-              </div>
-            
-
-            
-
-            
-              
-              
-              <div class="site-state-item site-state-tags">
+                <div class="site-state-item site-state-posts">
                 
-                  <span class="site-state-item-count">1</span>
-                  <span class="site-state-item-name">tags</span>
+                  <a href="/archives/">
                 
-              </div>
+                    <span class="site-state-item-count">2</span>
+                    <span class="site-state-item-name">Artikel</span>
+                  </a>
+                </div>
+              
+
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  
+                    
+                    
+                      
+                    
+                    <span class="site-state-item-count">1</span>
+                    <span class="site-state-item-name">schlagwörter</span>
+                  
+                </div>
+              
+            </nav>
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+          
+
+          
             
-
-          </nav>
-
           
-
-          
-
-          
-          
-
-          
-          
-
           
 
         </div>
-      </section>
+      </div>
 
       
 
@@ -462,6 +550,7 @@
 
     </div>
   </aside>
+  
 
 
         
@@ -471,16 +560,18 @@
     <footer id="footer" class="footer">
       <div class="footer-inner">
         <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
-  <span class="with-love">
+  <span class="with-love" id="animate">
     <i class="fa fa-user"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">John Doe</span>
+  <span class="author" itemprop="copyrightHolder">laguarage</span>
+
+  
 
   
 </div>
 
 
-  <div class="powered-by">Powered by <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a></div>
+  <div class="powered-by">Erstellt mit  <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> v3.8.0</div>
 
 
 
@@ -488,12 +579,13 @@
 
 
 
-  <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Muse</a> v5.1.4</div>
+  <div class="theme-info">Design – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> v7.1.2</div>
 
 
 
 
         
+
 
 
 
@@ -514,11 +606,14 @@
 
     
 
+    
+
+    
   </div>
 
   
 
-<script type="text/javascript">
+<script>
   if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
     window.Promise = null;
   }
@@ -532,96 +627,11 @@
 
 
 
-  
 
 
 
 
 
-
-
-
-
-
-
-
-  
-  
-    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
-  
-
-
-  
-
-
-  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
-
-  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
-
-
-
-  
-  
-
-  
-  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
-<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
-
-
-
-  
-
-
-  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
-
-
-
-  
-
-
-  
-
-
-
-
-	
-
-
-
-
-
-  
-
-
-
-
-
-  
 
 
 
@@ -635,7 +645,57 @@
 
 
   
+  <script src="/lib/jquery/index.js?v=2.1.3"></script>
 
+  
+  <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+
+  
+
+
+  <script src="/js/utils.js?v=7.1.2"></script>
+
+  <script src="/js/motion.js?v=7.1.2"></script>
+
+
+
+  
+  
+
+
+  <script src="/js/schemes/muse.js?v=7.1.2"></script>
+
+
+
+  
+  <script src="/js/scrollspy.js?v=7.1.2"></script>
+<script src="/js/post-details.js?v=7.1.2"></script>
+
+
+
+  
+
+
+  <script src="/js/next-boot.js?v=7.1.2"></script>
+
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+
+  
 
 
 
@@ -647,6 +707,19 @@
   
 
   
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
   
 
   
