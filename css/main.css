@@ -1841,7 +1841,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff75e8;
+  background: #907a67;
 }
 .feed-link,
 .chat {
@@ -3035,6 +3035,30 @@ ul.breadcrumb li+li:last-child {
   padding: 10px 20px 20px 20px;
   background-color: #fff;
 }
-.post-title {
-  color: #f00;
+.header {
+  background-color: rgba(0,0,225,0.2);
+}
+.site-meta {
+  float: none;
+}
+.menu {
+  float: none;
+}
+.logo-line-before,
+.logo-line-after {
+  display: none;
+}
+.menu .menu-item a {
+  font-size: 14px;
+  color: #0f2e41;
+  border-radius: 4px;
+}
+.site-meta {
+  margin-left: 0px;
+  text-align: center;
+}
+.site-meta .site-title {
+  font-size: 28px;
+  font-family: 'Comic Sans MS', sans-serif;
+  color: #fff;
 }
