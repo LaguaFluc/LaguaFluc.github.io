@@ -89,9 +89,9 @@
       <category term="个人思考" scheme="http://yoursite.com/categories/%E4%B8%AA%E4%BA%BA%E6%80%9D%E8%80%83/"/>
     
     
-      <category term="思考" scheme="http://yoursite.com/tags/%E6%80%9D%E8%80%83/"/>
-    
       <category term="感悟" scheme="http://yoursite.com/tags/%E6%84%9F%E6%82%9F/"/>
+    
+      <category term="思考" scheme="http://yoursite.com/tags/%E6%80%9D%E8%80%83/"/>
     
   </entry>
   
