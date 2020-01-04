@@ -1,5 +1,5 @@
 // 保护知识产权
-if(document.domain=='localhost'){
+if(document.domain!='localhost'){
     var copyright="";
     // 如果在首页无法找到copyright的话
     if(window.location.protocol + '//' + window.location.host+'/'!=window.document.location.href){
@@ -10,6 +10,7 @@ if(document.domain=='localhost'){
 		copyright="Author:SaltedMdFiveSh\r\n\r\nAuthor Link:https://silver-birch-wawa.github.io/\r\n\r\n Agreement: 'Attribution-non-commercial-shared in the same way 4.0'\r\n\r\nReprinted please retain the original link and author."
     }
     $(document).bind({  
+		console.log('BIND COPY');
         copy: function(e) {//copy事件 
             var cpTxt =copyright; 
             var clipboardData = window.clipboardData; //for IE  
@@ -37,4 +38,3 @@ if(document.domain=='localhost'){
 }
 
 
-console.log(1233333333);
