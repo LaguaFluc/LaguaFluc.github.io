@@ -9,9 +9,9 @@ if(document.domain!='localhost'){
         //copyright="文章作者:SaltedMdFiveSh\r\n\r\n作者链接:https://silver-birch-wawa.github.io/\r\n\r\n许可协议: '署名-非商用-相同方式共享 4.0' 转载请保留原文链接及作者。"
 		copyright="Author:SaltedMdFiveSh\r\n\r\nAuthor Link:https://silver-birch-wawa.github.io/\r\n\r\n Agreement: 'Attribution-non-commercial-shared in the same way 4.0'\r\n\r\nReprinted please retain the original link and author."
     }
-    $(document).bind({  
-		console.log('BIND COPY');
+    $(document).bind({ 
         copy: function(e) {//copy事件 
+			console.log('BIND COPY');
             var cpTxt =copyright; 
             var clipboardData = window.clipboardData; //for IE  
             if (!clipboardData) { // for chrome  
