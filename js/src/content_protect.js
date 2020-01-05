@@ -5,8 +5,16 @@ if (document.domain != 'localhost') {
         copy: function(e) { //copy事件 
             console.log('BIND COPY');
             //版权声明
-            copyright = "文章作者:SaltedMdFiveSh\r\n\r\n作者链接:https://silver-birch-wawa.github.io/\r\n\r\n许可协议: '署名-非商用-相同方式共享 4.0' 转载请保留原文链接及作者。"
-                //IE浏览器的粘贴板数据
+
+            var copyright = "";
+            // 如果在首页无法找到copyright的话
+            if (window.location.protocol + '//' + window.location.host + '/' != window.document.location.href) {
+                copyright = $(".copyright")[0]['innerText'];
+            } else {
+                copyright = "文章作者:SaltedMdFiveSh\r\n\r\n作者链接:https://silver-birch-wawa.github.io/\r\n\r\n许可协议: '署名-非商用-相同方式共享 4.0' 转载请保留原文链接及作者。"
+            }
+            // copyright = "文章作者:SaltedMdFiveSh\r\n\r\n作者链接:https://silver-birch-wawa.github.io/\r\n\r\n许可协议: '署名-非商用-相同方式共享 4.0' 转载请保留原文链接及作者。"
+            //IE浏览器的粘贴板数据
             var clipboardData = window.clipboardData; //for IE  
 
             if (!clipboardData) { // for chrome  
