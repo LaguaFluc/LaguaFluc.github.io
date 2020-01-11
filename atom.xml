@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-01-03T17:38:55.031Z</updated>
+  <updated>2020-01-11T16:16:41.791Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>我很想明天早上起来再看看那明亮的光</title>
+    <link href="http://yoursite.com/2020/01/12/%E6%88%91%E5%BE%88%E6%83%B3%E6%98%8E%E5%A4%A9%E6%97%A9%E4%B8%8A%E8%B5%B7%E6%9D%A5%E5%86%8D%E7%9C%8B%E7%9C%8B%E9%82%A3%E6%98%8E%E4%BA%AE%E7%9A%84%E5%85%89/"/>
+    <id>http://yoursite.com/2020/01/12/我很想明天早上起来再看看那明亮的光/</id>
+    <published>2020-01-11T16:14:43.000Z</published>
+    <updated>2020-01-11T16:16:41.791Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近天气有些阴沉，以至于每天中午起床的我根本就看不见很明亮的光。因此，心情也不会那么的好。</p><p>今天晚上在床上玩手机，忽的一下下床去，到外面，看见了外面黑黑的夜色，于是思绪便被过去的经历勾起，啊，早上的黑夜好美丽！</p><p>很自然的，就想要早起。尽管我已经有大半个月没有看见早上的黑夜了，但是还是这样想着。</p><p>早上身体经过一夜的休整，还是暖暖的，跟窗外，天下，凛冽的寒风，冷得刺鼻的空气形成鲜明的对比。之前会很害怕甚至于厌烦这种对比，反差太大我觉得不适应，现在看看想想，这也可以是另一番乐趣。就那样站在皎洁的月光下，吸一口气，呼一口泛出“白光”的气，哇，真美妙。在这里我可以以积极的态度思考具有无限可能性的人生，给今天制定一个不那么简单却又可以一定的自制力去完成的计划；干脆什么都不想，关于未来结果的什么也不念地去做一些平时想做，但是又一直悔恨自己没有做的事情；可以蹦跶蹦跶，给全身带来于一股新的、不同于被窝的暖气；哒哒打开电脑写一些温暖的小文字，畅想着欸嘿，现在村上春树跑步的时候在干啥呢，开一波脑洞，写一个小故事。</p><p>总之，关于早起，我能够想出很多美妙有意思的好事情。给它赋予一些可爱的性质；用行动带出一种很洒脱，超然独立于世的意境等等好事情。</p><p>说了这么多，看你这么想早起，话不多说，明天后天外后天咱再早起一把吧。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;最近天气有些阴沉，以至于每天中午起床的我根本就看不见很明亮的光。因此，心情也不会那么的好。&lt;/p&gt;
+&lt;p&gt;今天晚上在床上玩手机，忽的一下下床去，到外面，看见了外面黑黑的夜色，于是思绪便被过去的经历勾起，啊，早上的黑夜好美丽！&lt;/p&gt;
+&lt;p&gt;很自然的，就想要早起。尽管我已经有
+      
+    
+    </summary>
+    
+      <category term="杂念" scheme="http://yoursite.com/categories/%E6%9D%82%E5%BF%B5/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>2019叙事-杂文-想哪写哪</title>
@@ -524,27 +549,6 @@
     
     
       <category term="思考" scheme="http://yoursite.com/tags/%E6%80%9D%E8%80%83/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://yoursite.com/2019/06/07/hello-world/"/>
-    <id>http://yoursite.com/2019/06/07/hello-world/</id>
-    <published>2019-06-07T12:02:28.954Z</published>
-    <updated>2019-06-07T12:02:28.954Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
-      
-    
-    </summary>
-    
     
   </entry>
   
