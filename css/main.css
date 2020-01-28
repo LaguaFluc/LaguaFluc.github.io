@@ -1841,7 +1841,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #96c805;
+  background: #f2ff94;
 }
 .feed-link,
 .chat {
@@ -3061,4 +3061,8 @@ ul.breadcrumb li+li:last-child {
   font-size: 28px;
   font-family: 'Comic Sans MS', sans-serif;
   color: #fff;
+}
+div.post-body p img {
+  text-align: center;
+  max-width: 50%;
 }
