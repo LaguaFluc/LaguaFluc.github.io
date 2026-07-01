@@ -19,24 +19,26 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"laguafluc.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.27.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12,"onmobile":false},"hljswrap":true,"codeblock":{"theme":{"light":"default","dark":"stackoverflow-dark"},"prism":{"light":"prism","dark":"prism-dark"},"copy_button":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"language":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"duration":200,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"},"path":"/search.xml","localsearch":{"enable":true,"top_n_per_article":1,"unescape":false,"preload":false,"trigger":"auto"}}</script><script src="/js/config.js" defer></script>
 
-    <meta name="description" content="喜欢思考，将从数学和编程中学习到的东西写出来。">
-<meta property="og:type" content="website">
-<meta property="og:title" content="laguarage&#39;s little space.">
-<meta property="og:url" content="https://laguafluc.github.io/tags/%E8%A7%82%E5%90%8E%E6%84%9F/index.html">
+    <meta name="description" content="开发类 在项目文件夹下新建 specs&#x2F;spec.md 文件，所有的长文本的需求可以放在 spec.md 中，让 cursor 去读取你的文件，根据你文件的要求去开发。同时也可以让 cursor 将开发的结果和结论放在 spec.md 中。 让 Cursor 去根据 spec.md 去构建镜像，告诉它镜像中需要哪些文件，基础的镜像是什么，然后它会自己去构建 requirements.tx">
+<meta property="og:type" content="article">
+<meta property="og:title" content="记录使用Cursor做的事情">
+<meta property="og:url" content="https://laguafluc.github.io/2026/07/01/%E8%AE%B0%E5%BD%95%E4%BD%BF%E7%94%A8Cursor%E5%81%9A%E7%9A%84%E4%BA%8B%E6%83%85/index.html">
 <meta property="og:site_name" content="laguarage&#39;s little space.">
-<meta property="og:description" content="喜欢思考，将从数学和编程中学习到的东西写出来。">
+<meta property="og:description" content="开发类 在项目文件夹下新建 specs&#x2F;spec.md 文件，所有的长文本的需求可以放在 spec.md 中，让 cursor 去读取你的文件，根据你文件的要求去开发。同时也可以让 cursor 将开发的结果和结论放在 spec.md 中。 让 Cursor 去根据 spec.md 去构建镜像，告诉它镜像中需要哪些文件，基础的镜像是什么，然后它会自己去构建 requirements.tx">
 <meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2026-07-01T02:53:57.000Z">
+<meta property="article:modified_time" content="2026-07-01T02:54:17.263Z">
 <meta property="article:author" content="laguarage">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="https://laguafluc.github.io/tags/%E8%A7%82%E5%90%8E%E6%84%9F/">
+<link rel="canonical" href="https://laguafluc.github.io/2026/07/01/%E8%AE%B0%E5%BD%95%E4%BD%BF%E7%94%A8Cursor%E5%81%9A%E7%9A%84%E4%BA%8B%E6%83%85/">
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":false,"lang":"en","comments":"","permalink":"","path":"tags/观后感/index.html","title":""}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"en","comments":true,"permalink":"https://laguafluc.github.io/2026/07/01/%E8%AE%B0%E5%BD%95%E4%BD%BF%E7%94%A8Cursor%E5%81%9A%E7%9A%84%E4%BA%8B%E6%83%85/","path":"2026/07/01/记录使用Cursor做的事情/","title":"记录使用Cursor做的事情"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>Tag: 观后感 | laguarage's little space.</title>
+<title>记录使用Cursor做的事情 | laguarage's little space.</title>
   
 
 
@@ -141,7 +143,7 @@
   
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           Table of Contents
@@ -154,6 +156,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%BC%80%E5%8F%91%E7%B1%BB"><span class="nav-number">1.</span> <span class="nav-text">开发类</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%93%8D%E4%BD%9C%E7%B1%BB"><span class="nav-number">2.</span> <span class="nav-text">操作类</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%AD%A6%E4%B9%A0%E7%B1%BB"><span class="nav-number">3.</span> <span class="nav-text">学习类</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Cursor-Agent"><span class="nav-number">4.</span> <span class="nav-text">Cursor Agent</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -203,70 +206,139 @@
 
     </div>
 
-    <div class="main-inner tag posts-collapse">
+    <div class="main-inner post posts-expand">
 
 
   
+
+
+<div class="post-block">
   
   
-  <div class="post-block">
-    <div class="post-content">
-      <div class="collection-title">
-        <h1 class="collection-header">观后感
-          <small>Tag</small>
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="en">
+    <link itemprop="mainEntityOfPage" href="https://laguafluc.github.io/2026/07/01/%E8%AE%B0%E5%BD%95%E4%BD%BF%E7%94%A8Cursor%E5%81%9A%E7%9A%84%E4%BA%8B%E6%83%85/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/%E5%A4%B4%E5%83%8F.jpg">
+      <meta itemprop="name" content="laguarage">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="laguarage's little space.">
+      <meta itemprop="description" content="喜欢思考，将从数学和编程中学习到的东西写出来。">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="记录使用Cursor做的事情 | laguarage's little space.">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          记录使用Cursor做的事情
         </h1>
-      </div>
 
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
       
-    <div class="collection-year">
-      <span class="collection-header">2019</span>
+
+      <time title="Created: 2026-07-01 10:53:57 / Modified: 10:54:17" itemprop="dateCreated datePublished" datetime="2026-07-01T10:53:57+08:00">2026-07-01</time>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="Word count in article">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">Word count in article: </span>
+      <span>813</span>
+    </span>
+    <span class="post-meta-item" title="Reading time">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">Reading time &asymp;</span>
+      <span>3 mins.</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody"><h1 id="开发类"><a href="#开发类" class="headerlink" title="开发类"></a>开发类</h1><ol>
+<li>在项目文件夹下新建 specs&#x2F;spec.md 文件，所有的长文本的需求可以放在 spec.md 中，让 cursor 去读取你的文件，根据你文件的要求去开发。同时也可以让 cursor 将开发的结果和结论放在 spec.md 中。</li>
+<li>让 Cursor 去根据 spec.md 去构建镜像，告诉它镜像中需要哪些文件，基础的镜像是什么，然后它会自己去构建 requirements.txt。你可以要求它使用 Dockerfile，或者 docker-compose 去构建镜像，注意在使用 pip 下载 python 包的时候告诉它使用清华源镜像，不然会很慢。另外，注意配置 dockerignore,告诉它需要删除哪些不用的日志文件。</li>
+<li>根据 debug 的结果，将 terminal 中运行的结果加入到 cursor 的输入的上下文中，并且告诉它运行的代码文件，问它为什么会出现这个问题，怎么解决这个问题。</li>
+<li>在 cursor 的边栏输入框中，选中一些文件，让它基于你的需求去对选中文件去进行改造和 debug。cursor 能够访问的文件 不仅仅局限于选中的文件，还可以读取整个项目目录的文件，如果在它的 agent 判断需要读取其他的文件的情况下。</li>
+</ol>
+<h1 id="操作类"><a href="#操作类" class="headerlink" title="操作类"></a>操作类</h1><ol>
+<li>帮助清理磁盘空间，首先先找系统盘哪些文件可以删除，然后告诉它可以去删除哪些文件。在删除文件之前会找你去确认，一定要仔细查看它要删除的目录。</li>
+<li>移动 docker 和 conda 包的存储位置，之前本来放在系统盘中，现在放在数据盘中。</li>
+<li>帮助挂在硬盘。在云服务器上挂载了硬盘，但是在服务器的命令行中没有配置，那么可以告诉 cursor 你的数据盘的硬盘的大小，然后开始去做配置。</li>
+<li>打开 cursor 的内置浏览器，打开并且登录你想要让 cursor 访问的网站，让 cursor 基于打开的网页去进行解读、总结和内容生成。</li>
+</ol>
+<h1 id="学习类"><a href="#学习类" class="headerlink" title="学习类"></a>学习类</h1><ol>
+<li>基础：给某个文件新增注释，给某个文件生成函数注释，解释某个函数的功能，让 cursor 去帮助你追踪某个函数的功能链路，让你知道在整个流程中，这个函数的作用。</li>
+<li>进阶：生成项目的 readme.md，生成项目的流程图和架构图。</li>
+</ol>
+<h1 id="Cursor-Agent"><a href="#Cursor-Agent" class="headerlink" title="Cursor Agent"></a>Cursor Agent</h1><ol>
+<li>将需求放在项目根目录下的 specs&#x2F;spec.md 中，打开 Agent window，让 cursor 基于 specs&#x2F;spec.md 去开发。可以有多种要求（1）根据 specs&#x2F;spec.md 去进行开发，（2）根据 specs&#x2F;spec.md ，和我一起讨论我的任务的要求，并且跟我一起明确讨论需求中不明确的地方，然后开始讨论，（3）跟我 specs&#x2F;spec.md 中的任务，和我一起讨论实现的方案，然后开始开发，最后将计划，以及任务的结果和部署方式放在 specs&#x2F;spec.md 中。</li>
+<li>让 Cursor Agent 去阅读你的项目，并且基于你的项目去进行改造，生成简历描述，生成技术 PPT，以及项目的架构、项目流程图。</li>
+</ol>
+
     </div>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2019-07-13T00:00:00+08:00"
-              content="2019-07-13">
-          07-13
-        </time>
-      </div>
+    
+    
+    
 
-      <div class="post-title">
-          <a class="post-title-link" href="/2019/07/13/2019-07-13-%E4%BA%8B%E7%89%A9%E7%9A%84%E5%8F%91%E5%B1%95%E6%80%BB%E6%98%AF%E5%91%88%E8%9E%BA%E6%97%8B%E4%B8%8A%E5%8D%87%E7%9A%84/" itemprop="url">
-            <span itemprop="name">事物的发展总是呈螺旋上升的</span>
-          </a>
-      </div>
+    <footer class="post-footer">
+          
 
-      
-    </header>
+<div class="post-copyright">
+<ul>
+  <li class="post-copyright-author">
+      <strong>Post author:  </strong>laguarage
+  </li>
+  <li class="post-copyright-link">
+      <strong>Post link: </strong>
+      <a href="https://laguafluc.github.io/2026/07/01/%E8%AE%B0%E5%BD%95%E4%BD%BF%E7%94%A8Cursor%E5%81%9A%E7%9A%84%E4%BA%8B%E6%83%85/" title="记录使用Cursor做的事情">https://laguafluc.github.io/2026/07/01/记录使用Cursor做的事情/</a>
+  </li>
+  <li class="post-copyright-license">
+      <strong>Copyright Notice:  </strong>All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY</a> unless stating additionally.
+  </li>
+</ul>
+</div>
+
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2026/06/29/2026%E5%B9%B40622-0628%E5%91%A8%E5%A4%8D%E7%9B%98/" rel="prev" title="2026年0622-0628周复盘">
+                  <i class="fa fa-angle-left"></i> 2026年0622-0628周复盘
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
+    </footer>
   </article>
+</div>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2019-06-25T00:00:00+08:00"
-              content="2019-06-25">
-          06-25
-        </time>
-      </div>
 
-      <div class="post-title">
-          <a class="post-title-link" href="/2019/06/25/2019-06-25-%E3%80%8A%E6%81%B6%E6%84%8F%E3%80%8B/" itemprop="url">
-            <span itemprop="name">《恶意》</span>
-          </a>
-      </div>
 
-      
-    </header>
-  </article>
 
-    </div>
-  </div>
-  
-  
-  
+
 
 </div>
   </main>
